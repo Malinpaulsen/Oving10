@@ -80,7 +80,7 @@ for j in range(41):
                 continue
         else:
             continue
-   if len(snødybde) >= 200: #La til for å skjekke om det er 200 eller mer målepunkt for hvert år
+    if len(snødybde) >= 200: #La til for å skjekke om det er 200 eller mer målepunkt for hvert år
            sn = funksjon_flyttall_enkelverdi(snødybde, 20)
            aarene.append(aarstall)
            vintersesong.append(sn)
